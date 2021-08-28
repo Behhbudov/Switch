@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+:root {
+    --yasil: #53d153;
+    --tyasil: #207b20;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('../img/headerbg.jpg') center/cover;
+    height: 100vh;
+    text-align: center;
+}
+#logo {
+    padding: 5px 0 0 0;
+}
+nav ul li {
+    padding: 0 10px;
+}
+nav ul li a {
+    display: inline-block;
+    font: bold 1em 'Montserrat', sans-serif;
+    white-space: nowrap;
+    color: #FFF;
+    padding: 5px;
+    border-top: 5px solid rgba(0, 0, 0, 0);
+}
+#search {
+    padding: 5px 0 0 0;
+}
+#search input {
+    width: 175px;
+    height: 25px;
+    background: rgba(255, 255, 255, .8) url('../img/search.png') 95% center/15px no-repeat;;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    font: 1em Roboto;
+    color: #111;
+    padding: 0 0 0 15px;
+}
+h1 {
+    font: bold 2em 'Montserrat', sans-serif;
+    color: #FFF;
+}
+#button1 {
+    width: 210px;
+    height: 40px;
+    background: var(--yasil);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    margin: 20px 0 0 0;
+    font: 1.3em Roboto;
+    color: #FFF;
+    text-transform: uppercase;
+}
+#scroll a {
+    display: inline-block;
+    font: 1em 'Montserrat', sans-serif;
+    color: #111;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin: 0 0 15px 0;
+}
+main section {
+    text-align: center;
+    padding: 40px 20px;
+}
+h2 {
+    font: 300 1.2em 'Montserrat', sans-serif;
+    color: #828181;
+    text-transform: uppercase;
+}
+.hr {
+    border: 0;
+    border-top: 2px solid #828181;
+    width: 43px;
+}
+h6 {
+    font: 1em Roboto;
+    color: #b7b3b3;
+}
+#arts1 article { padding: 70px 0 0 0; }
+#arts1 article div {
+    width: 140px;
+    padding: 30px;
+    background: #e0f3e0;
+    border-radius: 27px;
+    margin: auto;
+}
+#arts1 article div i {
+    color: var(--yasil);
+    font-size: 4.7em;
+}
+#arts1 article h3 {
+    font: bold 1.5em Roboto;
+    color: #828181;
+    padding: 25px 0;
+}
+#arts1 article p {
+    font: 300 .93em/1.2 'Montserrat', sans-serif;
+    color: #828181;
+}
+#arts1 article button {
+    color: #FFF;
+    font: bold 1em 'Montserrat', sans-serif;
+    background: var(--yasil);
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    margin: 25px 0;
+}
+#btngroup {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+#btngroup button {
+    padding: 5px 10px;
+    border: 1px solid var(--tyasil);
+    background: #FFF;
+    font: 1em Roboto;
+    color: var(--tyasil);
+}
+#btngroup button:first-child { border-radius: 20px 0 0 20px; }
+#btngroup button:last-child { border-radius: 0 20px 20px 0; }
+#btngroup button:hover, #btnactive { 
+    background: var(--tyasil)! important;
+    color: #FFF! important;
+}
+#images {
+    display: flex;
+    flex-direction: column;
+}
+#images img {
+    object-fit: cover;
+    height: 48vh;
+    margin: 2vh 0;
+}
+#button2 {
+    margin: 40px 0;
+    padding: 10px 20px;
+    background: var(--tyasil);
+    color: #FFF;
+    font: .9em Roboto;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+#logos img {
+    object-fit: cover;
+    margin: 5vh 0;
+}
+#button3 {
+    padding: 10px 30px;
+    background: #dddcdc;
+    color: #a59d9d;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font: .9em Roboto;
+}
+#info {
+    display: flex;
+    flex-direction: row;
+}
+#info p {
+    padding: 30px 20px 0 20px;
+    font: 1em Roboto;
+    color: #444444;
+}
+#info i {
+    padding: 88px 0 0 0;
+    font-size: 1.5em;
+    color: #dfdfdf;
+}
+#info2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 30px 0;
+}
+#info2 i {
+    font-size: 2.8em;
+    color: #CCC;
+}
+#info2 div { padding: 0 0 0 10px; }
+#h5 {
+    font: 1em Robot;
+    color: #444;
+    text-align: left;
+}
+#hh5 {
+    font: bold 1em Roboto;
+    color: #ccc;
+}
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team div {
+    padding: 40px 0;
+}
+#team div img { 
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+#team div hr {
+    border: 0! important;
+    height: 77px;
+    border-left: 2px solid var(--tyasil)! important;
+    margin: 10px 0 0 70px;
+}
+#team p {
+    font: 1.em Roboto;
+    color: #FFF;
+    padding: 10px 0
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#team .social {
+    width: 110px;
+    height: 40px;
+    padding: 4px 0 0 0;
+    background: #c5e9c5;
+    border-radius: 20px;
+    margin: auto;
+}
+#team .social i {
+    font-size: 30px;
+    padding: 2px;
+}
+.fa-facebook, .fa-facebook-messenger { color: blue; }
+.fa-whatsapp { color: green; }
+main #div { text-align: center; }
+#button4 {
+    font: 300 1em Roboto;
+    color: #FFF;
+    padding: 10px;
+    margin: 27px 0;
+    background: var(--yasil);
+    border: none;
+    border-radius: 20px;
+    box-shadow: -5px 3px 30px gray;
+}
+.bg-yasil { background: var(--yasil); }
+.bg-tyasil { background: var(--tyasil) }
+.bg-boz { background: #f1f1f1; }
+.txt-yasil { color: var(--tyasil)! important; }
+.border-yasil { border-top: 2px solid var(--tyasil)! important; }
+.txt-aciqyasil { color: #2b9b2b! important; }
+
+footer section div { background: #333; }
+footer article { padding: 40px 0 0 0; }
+footer h3 {
+    font: 300 1em 'Montserrat', sans-serif;
+    color: #DDD;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer #hrr {
+    border: 0;
+    border-top: 2px solid #DDD;
+    width: 43px;
+}
+footer #p1 {
+    font: .8em Roboto;
+    color: #CCC;
+    text-align: center;
+    padding: 10px;
+}
+.social1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .social1 {
+    width: 110px;
+    height: 40px;
+    padding: 4px 0 0 0;
+    background: #c5e9c5;
+    border-radius: 20px;
+    margin: auto;
+}
+footer .social1 i {
+    font-size: 30px;
+    padding: 2px;
+}
+#divs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+#divs div img{
+    object-fit: cover;
+	height: 100px;
+	width: 100px;
+	margin: 0 0 5px 0;
+    border-radius: 5px;
+}
+#divs .p2{
+	font: 1em Roboto;
+	color: #ccc;
+}
+#divs #btn1 {
+    background: var(--yasil);
+    color: #FFF;
+	border-radius: 3px;
+	border: none;
+}
+#divs .btn2 {
+    background: #ffba00;
+    color: #FFF;
+	border-radius: 3px;
+	border: none;
+}
+#divs #btn3 {
+    background: #089cea;
+    color: #FFF;
+	border-radius: 3px;
+	border: none;
+}
+#divs #btn4 {
+    background: #f34c03;
+    color: #FFF;
+	border-radius: 3px;
+	border: none;
+}
+#p3 {
+    font: 300 .87em Roboto;
+    color: #CCC;
+    text-align: center;
+    padding: 10px 0;
+}
+footer form {
+    padding: 10px 0;
+    text-align: center;
+}
+#input1 {
+    width: 100%;
+    height: 30px;
+    background: #444;
+    color: #777;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    padding:0 0 0 5px;
+    margin:0 0 5px 0;
+}
+#input2 {
+    width: 100%;
+    height: 30px;
+    background: #444;
+    color: #777;
+    border: none;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}
+#input3 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 130px;
+    background: #444;
+    color: #777;
+    border: none;
+    margin: 0 0 5px 0;
+    padding: 0 0 100px 5px;
+}
+#btn5 {
+    background: #2b9b2b;
+    color: #FFF;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+}
+#divs2 {
+    background: #212121;
+}
+#divs2 h3 {
+    font: 300 1.5em 'Montserrat', sans-serif;
+    color: #101010! important;
+    text-align: center;
+    text-transform: uppercase;
+}
+#divs2 #hrr {
+    border: 0;
+    border-top: 2px solid #0f0f0f! important;
+    width: 43px;
+}
+#divs2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+#divs2 #logo4 { width: 300px; }
+#last {
+    background: #111;
+    font: 1em Roboto;
+    color: #FFF;
+    text-align: center;
+    padding: 5px 0;
+}
+@media only screen and (min-width: 768px) {
+    nav {
+        display: flex;
+    }
+    #logo, nav ul, #search { flex: 1 1 33%; }
+    nav ul { 
+        order: -1; 
+        display: flex; 
+    }
+    .active, nav ul li a:hover { border-top: 5px solid var(--yasil); }
+    #search { 
+        text-align: right;
+        padding: 10px 30px 0 0;
+    }
+    h1 {
+        font-size: 3.4em;
+    }
+    #arts1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    #arts1 p { padding: 0 50px; }
+    #images {
+        margin: 0 8.5%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #images img {
+        width: 18%;
+        height: 200px;
+        flex: 0 1 200px;
+        object-fit: cover;
+    }
+    #logos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px 8.5%;
+        justify-content: space-between;
+    }
+    #logos img {
+        object-fit: cover;
+        margin: 6vh 05vw;
+    }
+    #info {
+        justify-content: center;
+    
+    }
+    #info p {
+        padding: 70px 120px 0 120px;
+    }
+    #team {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 50px;
+    }
+    #divs1 article { 
+        width: 33%; 
+        padding: 50px;
+    }
+    #divs1 {
+        display: flex;
+        flex-direction: row;
+    }
+    #divs { padding: 20px 0 0 0; }
+    footer #p1 {
+        font: 1em Roboto;
+        color: #CCC;
+        text-align: center;
+        padding: 40px 0;
+    }
+    #divs div {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 10px 0;
+	}
+	#divs div img {
+		height: 50px;
+		width: 50px;
+	}
+    #divs .p2 { padding: 0 0 0 5px; }
+}
