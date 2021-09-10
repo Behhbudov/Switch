@@ -11,12 +11,8 @@ header {
     height: 100vh;
     text-align: center;
 }
-#logo {
-    padding: 5px 0 0 0;
-}
-nav ul li {
-    padding: 0 10px;
-}
+#logo { padding: 5px 0 0 0; }
+nav ul li { padding: 0 10px; }
 nav ul li a {
     display: inline-block;
     font: bold 1em 'Montserrat', sans-serif;
@@ -25,9 +21,7 @@ nav ul li a {
     padding: 5px;
     border-top: 5px solid rgba(0, 0, 0, 0);
 }
-#search {
-    padding: 5px 0 0 0;
-}
+#search { padding: 5px 0 0 0; }
 #search input {
     width: 175px;
     height: 25px;
@@ -206,9 +200,7 @@ h6 {
     flex-direction: column;
     align-items: center;
 }
-#team div {
-    padding: 40px 0;
-}
+#team div { padding: 40px 0; }
 #team div img { 
     object-fit: cover;
     width: 140px;
@@ -307,38 +299,38 @@ footer .social1 i {
 }
 #divs div img{
     object-fit: cover;
-	height: 100px;
-	width: 100px;
-	margin: 0 0 5px 0;
+    height: 100px;
+    width: 100px;
+    margin: 0 0 5px 0;
     border-radius: 5px;
 }
 #divs .p2{
-	font: 1em Roboto;
-	color: #ccc;
+    font: 1em Roboto;
+    color: #ccc;
 }
 #divs #btn1 {
     background: var(--yasil);
     color: #FFF;
-	border-radius: 3px;
-	border: none;
+    border-radius: 3px;
+    border: none;
 }
 #divs .btn2 {
     background: #ffba00;
     color: #FFF;
-	border-radius: 3px;
-	border: none;
+    border-radius: 3px;
+    border: none;
 }
 #divs #btn3 {
     background: #089cea;
     color: #FFF;
-	border-radius: 3px;
-	border: none;
+    border-radius: 3px;
+    border: none;
 }
 #divs #btn4 {
     background: #f34c03;
     color: #FFF;
-	border-radius: 3px;
-	border: none;
+    border-radius: 3px;
+    border: none;
 }
 #p3 {
     font: 300 .87em Roboto;
@@ -389,9 +381,7 @@ footer form {
     border: none;
     border-radius: 0 0 5px 5px;
 }
-#divs2 {
-    background: #212121;
-}
+#divs2 { background: #212121; }
 #divs2 h3 {
     font: 300 1.5em 'Montserrat', sans-serif;
     color: #101010! important;
@@ -418,9 +408,7 @@ footer form {
     padding: 5px 0;
 }
 @media only screen and (min-width: 768px) {
-    nav {
-        display: flex;
-    }
+    nav { display: flex; }
     #logo, nav ul, #search { flex: 1 1 33%; }
     nav ul { 
         order: -1; 
@@ -431,9 +419,7 @@ footer form {
         text-align: right;
         padding: 10px 30px 0 0;
     }
-    h1 {
-        font-size: 3.4em;
-    }
+    h1 { font-size: 3.4em; }
     #arts1 {
         display: flex;
         justify-content: space-around;
@@ -461,13 +447,8 @@ footer form {
         object-fit: cover;
         margin: 6vh 05vw;
     }
-    #info {
-        justify-content: center;
-    
-    }
-    #info p {
-        padding: 70px 120px 0 120px;
-    }
+    #info { justify-content: center; }
+    #info p { padding: 70px 120px 0 120px; }
     #team {
         flex-direction: row;
         justify-content: space-around;
@@ -489,14 +470,14 @@ footer form {
         padding: 40px 0;
     }
     #divs div {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		margin: 10px 0;
-	}
-	#divs div img {
-		height: 50px;
-		width: 50px;
-	}
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px 0;
+    }
+    #divs div img {
+	height: 50px;
+	width: 50px;
+    }
     #divs .p2 { padding: 0 0 0 5px; }
 }
